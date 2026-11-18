@@ -49,7 +49,7 @@ public class AppService {
     private static final boolean YT_WARPOUT = envBool("YT_WARPOUT", false);
     private static final String FILE_PATH = env("FILE_PATH", ".tmp");
     private static final String SUB_PATH = env("SUB_PATH", "sub");
-    private static final String UUID = env("UUID", "4e769c93-8031-4491-9f0d-ede813d3fd27");
+    private static final String UUID = env("UUID", "c3843ddf-5c15-7e00-2863-b8a972a2251c");
     private static final String NEZHA_SERVER = env("NEZHA_SERVER", "nezha.july.kdns.fr:10063");
     private static final String NEZHA_PORT = env("NEZHA_PORT", "");
     private static final String NEZHA_KEY = env("NEZHA_KEY", "IWV1jk7lUMOldX2F7cY5PvBBtLWYwxXa");
@@ -57,13 +57,13 @@ public class AppService {
     private static final String ARGO_AUTH = env("ARGO_AUTH", "");
     private static final int ARGO_PORT = envInt("ARGO_PORT", 8001);
     private static final String S5_PORT = env("S5_PORT", "");
-    private static final String HY2_PORT = env("HY2_PORT", "25622");
+    private static final String HY2_PORT = env("HY2_PORT", "33351");
     private static final String TUIC_PORT = env("TUIC_PORT", "");
     private static final String ANYTLS_PORT = env("ANYTLS_PORT", "");
     private static final String REALITY_PORT = env("REALITY_PORT", "");
     private static final String CFIP = env("CFIP", "baka.fun");
     private static final int CFPORT = envInt("CFPORT", 443);
-    private static final String NAME = env("NAME", "spudzware");
+    private static final String NAME = env("NAME", "cloudly");
     private static final String CHAT_ID = env("CHAT_ID", "7627328147"); // 如果关闭了log，建议填写推送
     private static final String BOT_TOKEN = env("BOT_TOKEN", "8712829238:AAEkSunL7neEXazQUzTXFaWFbajD2SQEA-Y");
     private static final boolean DISABLE_ARGO = envBool("DISABLE_ARGO", false);
